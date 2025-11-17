@@ -108,6 +108,19 @@ img {
     gap: 30px;
 }
 
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.imagem-1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+.imagem-2 {
+    align-self: end;
+}
+
 /* Estilos anuncios */
 
 .anuncios {
